@@ -20,7 +20,7 @@ const AppCalendar = () => {
         <Calendar
             onChange={chooseDate}
             value={value}
-            locale="us-US"
+            locale="us"
             calendarType="ISO 8601"
         />
     );

@@ -13,7 +13,8 @@ const HomeScreen = () => {
                 </div>
                 <p className='home__txt'>
                     To view a list of episodes, please select the desired month and day.
-                </p></div>
+                </p>
+            </div>
             <AppCalendar/>
         </div>
     );

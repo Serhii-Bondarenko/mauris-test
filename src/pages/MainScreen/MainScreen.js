@@ -90,9 +90,11 @@ const MainScreen = () => {
                                 />)
                             }
                         </div>
-                        <button className='btn' onClick={managePages}>
-                            {episodes.length === data.length ?'to Start' : 'Next'}
-                        </button>
+                        {
+                            data.length > 5 && <button className='btn' onClick={managePages}>
+                                {episodes.length === data.length ?'to Start' : 'Next'}
+                            </button>
+                        }
                         {
                             link && <div className='modal' onClick={() => setLink('')}>
                                 <img
