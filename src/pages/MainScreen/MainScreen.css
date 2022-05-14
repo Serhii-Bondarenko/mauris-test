@@ -1,0 +1,35 @@
+.main {
+  position: relative;
+}
+.main .modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+}
+.main .episodes-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 5px 5px 5px;
+  row-gap: 20px;
+}
+.main .info {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #f5f5f5;
+}
+.main .btn {
+  font-weight: bold;
+  background-color: white;
+  border-radius: 3px;
+  border: solid 2px #d6d6d6;
+  color: #999999;
+  width: 90%;
+  margin: 15px;
+}
+
+/*# sourceMappingURL=MainScreen.css.map */

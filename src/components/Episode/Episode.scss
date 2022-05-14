@@ -1,0 +1,39 @@
+.episode, .title__tool{
+  display: flex;
+}
+
+.episode {
+  flex: 1 1 auto;
+  column-gap: 20px;
+
+  img {
+    width: 150px;
+    height: 180px;
+    border-radius: 5px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h4{
+      color: #333333;
+      font-size: 15px;
+      padding-bottom: 10px;
+    }
+    .title__info{
+      color: #b4b4b4;
+    }
+  }
+
+  .title__tool {
+    font-size: 12px;
+    color: #999999;
+    column-gap: 20px;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}

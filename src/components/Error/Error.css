@@ -1,0 +1,16 @@
+.error {
+  height: calc(100vh - 46px);
+  background-color: #333333;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error h3 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-align: center;
+}
+
+/*# sourceMappingURL=Error.css.map */
